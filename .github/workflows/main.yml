@@ -31,8 +31,5 @@ jobs:
           ECR_REPOSITORY: myprojectdemos
           IMAGE_TAG: '${{ github.sha }}'
       - name: sast-scan
-      - uses: AppThreat/sast-scan-action@1.0.2
-        with: null
-        src: null
-        output: null
-        type: null
+        uses: AppThreat/sast-scan-action@1.0.2
+      
