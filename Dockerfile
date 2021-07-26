@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/nodejs-bower-grunt
+FROM ddockerfile/digitallyseamless/nodejs-bower-grunt
 
 # modify from
 # https://registry.hub.docker.com/u/dockerfile/nodejs-bower-grunt-runtime/
